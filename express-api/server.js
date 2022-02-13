@@ -25,7 +25,7 @@ app.get ("/posts/:postId" , (req,res)=>
     let postId= posts.filter (x =>x.id == req.params.postId);
     res.send (postId);
 });
-
+//
 app.get("/posts" , (req,res) =>{
     res.send (posts);
 });
