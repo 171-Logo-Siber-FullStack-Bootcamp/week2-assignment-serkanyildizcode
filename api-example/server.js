@@ -2,6 +2,7 @@ const todosController = require("./src/controllers/todosController");
 const postsController = require("./src/controllers/postsController");
 const usersController = require("./src/controllers/usersController");
 
+//Express app yaratıyoruz.
 const app = require('express')();
 
 app.get("/posts", (req, res) => {
